@@ -1,0 +1,951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Icaros\n"
+"POT-Creation-Date: 2014-10-03 15:23:34+0000\n"
+"PO-Revision-Date: 2022-12-18 16:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cz_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: EXPLORER PROPERTIES
+msgctxt "#VideoTracks"
+msgid "Video tracks"
+msgstr "Videostopy"
+
+msgctxt "#AudioTracks"
+msgid "Audio tracks"
+msgstr "Audio stopy"
+
+msgctxt "#SubtitleTracks"
+msgid "Subtitle tracks"
+msgstr "Cesta k titulkům"
+
+msgctxt "#ContentCompression"
+msgid "Content compression"
+msgstr "Komprese obsahu"
+
+msgctxt "#ContainsChapters"
+msgid "Contains chapters"
+msgstr "Obsahuje kapitoly"
+
+msgctxt "#BitDepth"
+msgid "Bit depth"
+msgstr "Bitová hloubka"
+
+msgctxt "#SubtitleGroup"
+msgid "Subtitles"
+msgstr "Titulky"
+
+#: MAIN WINDOW
+msgctxt "tglThumbnail"
+msgid "THUMBNAILING"
+msgstr "MINIATURY"
+
+msgctxt "tglProperty"
+msgid "PROPERTIES"
+msgstr "VLASTNOSTI"
+
+msgctxt "tglCache"
+msgid "CACHE"
+msgstr "MEZIPAMĚŤ"
+
+msgctxt "tglTools"
+msgid "TOOLS"
+msgstr "NÁSTROJE"
+
+msgctxt "tglDebug"
+msgid "DEBUG"
+msgstr "LADĚNÍ"
+
+msgctxt "tglAbout"
+msgid "ABOUT"
+msgstr "O APLIKACI"
+
+msgctxt "tglUiSettings"
+msgid "ui settings"
+msgstr "nastavení rozhraní"
+
+msgctxt "stActivated"
+msgid "ACTIVATED"
+msgstr "AKTIVOVÁNO"
+
+msgctxt "stDeactivated"
+msgid "DEACTIVATED"
+msgstr "DEAKTIVOVÁNO"
+
+msgctxt "stDisabled"
+msgid "DISABLED"
+msgstr "VYPNUTO"
+
+msgctxt "stStatic"
+msgid "ENABLED (STATIC)"
+msgstr "ZAPNUTO (STATICKÉ)"
+
+msgctxt "stDynamic"
+msgid "ENABLED (DYNAMIC)"
+msgstr "ZAPNUTO (DYNAMICKÉ)"
+
+msgctxt "stNotInstalled"
+msgid "NOT INSTALLED"
+msgstr "NEINSTALOVÁNO"
+
+msgctxt "stIndexing"
+msgid "INDEXING..."
+msgstr "PROBÍHÁ INDEXACE..."
+
+#: THUMBNAIL PAGE
+msgctxt "cptFiletypes"
+msgid "THUMBNAIL FILETYPES"
+msgstr "TYPY SOUBORŮ MINIATUR"
+
+msgctxt "lblPresets"
+msgid "PRESET:"
+msgstr "PŘEDVOLBA:"
+
+msgctxt "cptSettings"
+msgid "SETTINGS"
+msgstr "NASTAVENÍ"
+
+msgctxt "lblOffset"
+msgid "Thumbnail Offset"
+msgstr "Posun miniatury"
+
+msgctxt "lblPrefTime"
+msgid "Prefer Timestamp"
+msgstr "Preferovat časové razítko"
+
+msgctxt "cbxBlkDtct"
+msgid "Enable black/white frame detection"
+msgstr "Povolit detekci černobílých snímků"
+
+msgctxt "lblThreshold"
+msgid "Threshold"
+msgstr "Práh"
+
+msgctxt "cbxShowOverlay"
+msgid "Display icon overlays on thumbnails"
+msgstr "Zobrazit překryvy ikon na miniaturách"
+
+msgctxt "cbxShowVidAdorn"
+msgid "Display movie reel on video thumbnails"
+msgstr "Zobrazit filmový pás na video miniaturách"
+
+msgctxt "cbxCoverArt"
+msgid "Use embedded Cover Art for thumbnails"
+msgstr "Použít vložený obal jako miniaturu"
+
+msgctxt "cbxCoverArtAny"
+msgid "Use any embedded image as Cover Art"
+msgstr "Použít jakýkoli vložený obrázek jako obal"
+
+msgctxt "cbxLandscape"
+msgid "Prefer Landscape Covers"
+msgstr "Preferovat obaly na šířku"
+
+msgctxt "tipAddTypes"
+msgid "Add New Thumbnail Filetypes"
+msgstr "Přidat nový typ souboru 
+
+msgctxt "tipBlkDtct"
+msgid "With this option enabled, Icaros will perform a quick and simple\nscan of the grabbed frame. If the frame is either too dark or too\nlight, Icaros will skip forward and try to find a better suited frame."
+msgstr "Když je tato volba aktivní, Icaros provede rychlé a jednoduché\nskenování zachyceného snímku. Pokud je snímek příliš tmavý\nnebo příliš světlý, Icaros přeskočí dál a pokusí se najít vhodnější snímek."
+
+msgctxt "tipCoverArt"
+msgid "When Cover Art is enabled, Icaros will look for embedded\ncover art in files that support it while generating thumbnails.\nIf a cover is found, it will be used as thumbnail, otherwise\nIcaros will automatically fall back to normal thumbnailing.\n\nNote: This should not affect the thumbnailing speed in any\nnoticeable way."
+msgstr "Když je obal aktivní, Icaros při generování miniatur\nvyhledá vložený obal v souborech, které jej podporují.\nPokud je obal nalezen, použije se jako miniatura,\nv opačném případě Icaros automaticky přejde na běžné generování miniatur.\n\nPoznámka: Nemělo by to nijak znatelně ovlivnit rychlost generování."
+
+msgctxt "tipCoverAny"
+msgid "With this option enabled, Icaros will use any embedded image in\nthe file as a cover, whether it follows the file specifications or not.\nImages intended as covers will always be preferred."
+msgstr "Po aktivaci této volby Icaros použije jakýkoli vložený obrázek\nv souboru jako obal, bez ohledu na to, zda odpovídá specifikaci souboru.\nObrázky určené jako obaly budou vždy upřednostněny."
+
+msgctxt "tipCoverLand"
+msgid "Some MKV files contain multiple covers. With such files\nIcaros will default to using the first normal/vertical cover.\nThis option will make Icaros prioritize landscape/horizontal\ncovers instead."
+msgstr "Některé soubory MKV obsahují více obalů. U takových souborů\nIcaros standardně použije první běžný/svislý obal.\nTato volba způsobí, že Icaros místo toho upřednostní\nvodorovné/na šířku orientované obaly."
+
+msgctxt "dlgcptPrstChng"
+msgid "Preset Info"
+msgstr "Informace o předvolbě"
+
+msgctxt "dlgPrstChng"
+msgid "The current list contains filetypes that are not included in the selected preset.\n\nDo you wish to include these filetypes in the list?"
+msgstr "Aktuální seznam obsahuje typy souborů, které nejsou zahrnuty ve vybrané předvolbě.\n\nChceš tyto typy souborů přidat do seznamu?"
+
+msgctxt "dlgPrstPsd"
+msgid "PSD is currently being handled by another thumbnail shell extension.\n\nDo you wish for Icaros to assume control of this filetype?\n(You can always remove the filetype again to undo this action)"
+msgstr "Soubory PSD jsou momentálně spravovány jiným rozšířením pro miniatury.\n\nChceš, aby Icaros převzal kontrolu nad tímto typem souboru?\n(Tento krok můžeš kdykoli vrátit odebráním typu souboru)"
+
+msgctxt "dlgcptThmbCheck"
+msgid "Thumbnail Check"
+msgstr "Kontrola miniatur"
+
+msgctxt "dlgThmbCheck"
+msgid "The following filetypes did not pass the thumbnail check:\n\n{0}\n\nDo you still wish to add them?"
+msgstr "Následující typy souborů neprošly kontrolou miniatur:\n\n{0}\n\nPřeješ si je přesto přidat?"
+
+msgctxt "ntfNewFiles"
+msgid "{0} new filetype(s) added ({1})"
+msgstr "Přidáno {0} nových typů souborů ({1})"
+
+msgctxt "ntfRefresh"
+msgid "Refreshed thumbnails of {0} file(s)"
+msgstr "Miniatury {0} souborů byly obnoveny"
+
+msgctxt "ntfExtrSuccess"
+msgid "Extraction Succeeded!"
+msgstr "Extrahování bylo úspěšné!"
+
+msgctxt "ntfExtrFailed"
+msgid "Extraction Failed!"
+msgstr "Extrahování se nezdařilo!"
+
+msgctxt "ntfTimeTaken"
+msgid "It took {0}ms"
+msgstr "Trvalo to {0} ms"
+
+msgctxt "txtThumbUpdater"
+msgid "Drag and drop one or more files and/or folders to this page to refresh their thumbnails/icons"
+msgstr "Přetáhni jeden nebo více souborů či složek na tuto stránku pro obnovení jejich miniatur/ikon"
+
+msgctxt "prstDefault"
+msgid "DEFAULT"
+msgstr "VÝCHOZÍ"
+
+msgctxt "prstCommon"
+msgid "COMMON"
+msgstr "BĚŽNÉ"
+
+msgctxt "prstVidOnly"
+msgid "VIDEO ONLY"
+msgstr "POUZE VIDEO"
+
+msgctxt "prstAudOnly"
+msgid "AUDIO ONLY"
+msgstr "POUZE AUDIO"
+
+msgctxt "prstMostKnown"
+msgid "MOST KNOWN"
+msgstr "NEJZNÁMĚJŠÍ"
+
+msgctxt "prstCustom"
+msgid "CUSTOM"
+msgstr "VLASTNÍ"
+
+#: PROPERTIES PAGE
+msgctxt "txtPropInfo"
+msgid "With  PROPERTIES  activated, Icaros will allow you to view information such as length, width, height, artist etc. in Explorer, for any of the checked filetypes below"
+msgstr "Při aktivaci VLASTNOSTÍ umožní Icaros zobrazit v Průzkumníku informace jako délka, šířka, výška, autor atd. pro libovolné typy souborů označené níže"
+
+msgctxt "cptVideo"
+msgid "VIDEO"
+msgstr "VIDEO"
+
+msgctxt "cptAudio"
+msgid "AUDIO"
+msgstr "AUDIO"
+
+msgctxt "btnSelectAll"
+msgid "Select All"
+msgstr "Vybrat vše"
+
+msgctxt "btnDeselectAll"
+msgid "Deselect All"
+msgstr "Zrušit výběr"
+
+msgctxt "cbxShowUnd"
+msgid "Show [Und] on tracks with an undefined language"
+msgstr "Zobrazit [Neznámý] u stop s nedefinovaným jazykem"
+
+#: CACHE PAGE
+msgctxt "tglIndexer"
+msgid "SETTINGS"
+msgstr "NASTAVENÍ"
+
+msgctxt "tglIndexLocs"
+msgid "LOCATIONS"
+msgstr "UMÍSTĚNÍ"
+
+msgctxt "lblCacheLocation"
+msgid "Cache Location"
+msgstr "Umístění mezipaměti"
+
+msgctxt "tipInvalidLocation"
+msgid "Icaros does not have permission to access current Cache Location.\nClick here to attempt to set the proper permissions.\nIf the error persists, try another directory."
+msgstr "Icaros nemá oprávnění pro přístup k aktuálnímu umístění mezipaměti.\nKlikni zde pro pokus o nastavení správných oprávnění.\nPokud chyba přetrvává, zkus jiný adresář."
+
+msgctxt "lblDriveRoot"
+msgid "Free Space on [{0}] Drive:"
+msgstr "Volné místo na disku [{0}]"
+
+msgctxt "lblMinFreeSpace"
+msgid "Min Free Space"
+msgstr "Minimální volné místo"
+
+msgctxt "lblMaxCacheSize"
+msgid "Max Cache Size"
+msgstr "Maximální velikost mezipaměti"
+
+msgctxt "tipMaxCache"
+msgid "Sets the max size limit of the Icaros Cache.\nIf 0 is set, the cache size is unlimited."
+msgstr "Nastavuje maximální velikost mezipaměti Icaros.\nHodnota 0 znamená neomezenou velikost."
+
+msgctxt "lblExclTypes"
+msgid "Excluded Filetypes"
+msgstr "Vyloučené typy souborů"
+
+msgctxt "tipUsedCache"
+msgid "{0:0.00}% of the available cache space is currently used"
+msgstr "Aktuálně je využito {0:0.00}% dostupného místa v mezipaměti"
+
+msgctxt "tipCacheSize"
+msgid "Icaros Cache Size"
+msgstr "Velikost mezipaměti Icaros"
+
+msgctxt "lblEntries"
+msgid "{0} entries"
+msgstr "Počet položek: {0}"
+
+msgctxt "lblCacheTut1"
+msgid "With the Icaros Cache ENABLED, Icaros will keep a local record of all thumbnails in an internal cache.\nThis allows Icaros to regenerate any cached thumbnail almost instantly in case Windows Explorer loses them.\n"
+msgstr "Když je mezipaměť Icaros zapnutá, Icaros ukládá všechny miniatury lokálně do vnitřní mezipaměti.\nTo umožňuje téměř okamžité obnovení miniatur, pokud je Průzkumník Windows ztratí.\n"
+
+msgctxt "lblCacheTut2"
+msgid "\nBy adding folders to the LOCATIONS page, and clicking the Build button below, it is possible to fill the cache\ndirectly from within IcarosConfig."
+msgstr "\nPřidáním složek na stránku LOKALITY a kliknutím na tlačítko „Vytvořit mezipaměť“ níže můžete naplnit\nmezipaměť přímo v nástroji IcarosConfig."
+
+msgctxt "lblCacheSt1"
+msgid "STATIC"
+msgstr "STATICKÁ"
+
+msgctxt "lblCacheSt2"
+msgid "DYNAMIC"
+msgstr "DYNAMICKÁ"
+
+msgctxt "lblCacheStInfo1"
+msgid "allows Icaros to retrieve cached thumbnails, but only IcarosConfig can modify the cache."
+msgstr "Umožňuje Icarosu načítat miniatury z mezipaměti, ale pouze nástroj IcarosConfig ji může upravovat."
+
+msgctxt "lblCacheStInfo2"
+msgid "allows Icaros to retrieve cached thumbnails, as well as dynamically add any new thumbnails to the cache."
+msgstr "Umožňuje Icarosu načítat miniatury z mezipaměti a také dynamicky přidávat nové miniatury."
+
+msgctxt "lblStatus"
+msgid "Status:"
+msgstr "Stav:"
+
+msgctxt "lblProgress"
+msgid "Progress:"
+msgstr "Průběh:"
+
+msgctxt "lblCompleted"
+msgid "Completed:"
+msgstr "Dokončeno:"
+
+msgctxt "lblFailed"
+msgid "Failed:"
+msgstr "Chyba:"
+
+msgctxt "btnFailed"
+msgid "View"
+msgstr "Zobrazit"
+
+msgctxt "btnBuild"
+msgid "Build Cache"
+msgstr "Vytvořit mezipaměť"
+
+msgctxt "btnRebuild"
+msgid "Rebuild Cache"
+msgstr "Obnovit mezipaměť"
+
+msgctxt "btnCancel"
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgctxt "btnClearCache"
+msgid "Clear Cache"
+msgstr "Vymazat mezipaměť"
+
+msgctxt "lblSetLocInfo"
+msgid "At least one location must be added to use the indexer"
+msgstr "Musí být přidána alespoň jedna lokalita, aby bylo možné použít indexátor"
+
+msgctxt "dlgClrIcCache"
+msgid "You are about to delete the Icaros Cache.\nDo you still wish to proceed?"
+msgstr "Chystáš se odstranit mezipaměť Icaros.\nOpravdu chceš pokračovat?"
+
+msgctxt "dlgCacheLoc"
+msgid "Select a thumbnail cache location"
+msgstr "Vyber umístění mezipaměti miniatur"
+
+msgctxt "dlgcptFailed"
+msgid "FAILED FILES"
+msgstr "SOUBORY S CHYBOU"
+
+msgctxt "tipOpenDirSelect"
+msgid "Open folder and select file"
+msgstr "Otevři složku a vyber soubor"
+
+msgctxt "btnSaveList"
+msgid "Save List"
+msgstr "Uložit seznam"
+
+msgctxt "stsIdxerInit"
+msgid "Indexer Initialized"
+msgstr "Indexátor byl inicializován"
+
+msgctxt "stsCollect"
+msgid "Preparing files for processing..."
+msgstr "Probíhá příprava souborů ke zpracování..."
+
+msgctxt "stsIdxFiles"
+msgid "Indexing files..."
+msgstr "Probíhá indexování souborů..."
+
+msgctxt "stsIdxFolders"
+msgid "Indexing folders..."
+msgstr "Probíhá indexování složek..."
+
+msgctxt "stsIdxSuccess"
+msgid "Indexing Completed Successfully"
+msgstr "Indexování bylo úspěšně dokončeno"
+
+msgctxt "stsIdxFailed"
+msgid "Indexing Failed"
+msgstr "Chyba při indexování"
+
+msgctxt "stsIdxCancel"
+msgid "Indexing was cancelled"
+msgstr "Indexování bylo zrušeno"
+
+msgctxt "stsIdxComplete"
+msgid "Indexing Completed"
+msgstr "Indexování dokončeno"
+
+msgctxt "lblTimeElapsed"
+msgid "Took: {}h {}m {}s {}ms"
+msgstr "Uplynulo: {} h {} min {} s {} ms"
+
+msgctxt "stsEHash"
+msgid "Failed to calculate proper file hash"
+msgstr "Nelze vypočítat správný hash souboru"
+
+msgctxt "stsEThread"
+msgid "Failed to initialize thread"
+msgstr "Nelze inicializovat vlákno"
+
+msgctxt "stsECacheInit"
+msgid "Failed to initialize Icaros Cache"
+msgstr "Nelze inicializovat mezipaměť Icaros"
+
+msgctxt "stsEServerInit"
+msgid "Failed to initialize Icaros Thumbnail Provider"
+msgstr "Nelze inicializovat poskytovatele miniatur Icaros"
+
+msgctxt "stsECacheLimit"
+msgid "Maximum cache size reached"
+msgstr "Mezipaměť dosáhla maximální velikosti"
+
+msgctxt "stsESpaceLimit"
+msgid "Minimum space limit reached"
+msgstr "Byl dosažen minimální limit místa"
+
+msgctxt "stsEDBAccess"
+msgid "Failed to access the database"
+msgstr "Nelze získat přístup k databázi"
+
+msgctxt "stsEIDXAccess"
+msgid "Failed to access the index"
+msgstr "Nelze získat přístup k indexu"
+
+msgctxt "stsERegAccess"
+msgid "Failed to access the registry"
+msgstr "Nelze získat přístup k registru"
+
+msgctxt "stsECleanUp"
+msgid "Clean up was incomplete"
+msgstr "Čištění nebylo dokončeno"
+
+msgctxt "stsENoFiles"
+msgid "Indexer found no files with included filetypes in current cache locations"
+msgstr "Indexátor nenašel žádné soubory odpovídajících typů v aktuálních umístěních mezipaměti"
+
+msgctxt "stsEUnknown"
+msgid "Undetermined result"
+msgstr "Neurčený výsledek"
+
+msgctxt "btnAdd"
+msgid "Add"
+msgstr "Přidat"
+
+msgctxt "btnRemove"
+msgid "Remove"
+msgstr "Odebrat"
+
+msgctxt "btnClear"
+msgid "Clear"
+msgstr "Vymazat"
+
+msgctxt "hdrLocation"
+msgid "Included Locations"
+msgstr "Zahrnuté umístění"
+
+msgctxt "hdrViewSize"
+msgid "View Size"
+msgstr "Velikost miniatur"
+
+msgctxt "hdrRecursive"
+msgid "Recursive"
+msgstr "Podadresáře"
+
+msgctxt "hdrExcluded"
+msgid "Excluded Locations"
+msgstr "Vyloučené umístění"
+
+msgctxt "enuSmall"
+msgid "Small"
+msgstr "Malé"
+
+msgctxt "enuMedium"
+msgid "Large"
+msgstr "Velké"
+
+msgctxt "enuLarge"
+msgid "XL"
+msgstr "Velmi velké"
+
+msgctxt "enuXL"
+msgid "Win 8 Icons"
+msgstr "Ikony Windows 8"
+
+msgctxt "enuXXL"
+msgid "Win 10 Icons"
+msgstr "Ikony Windows 10"
+
+msgctxt "tipRecursive"
+msgid "If Recursive is enabled, files in all subdirectories will be indexed as well"
+msgstr "Pokud je povolena rekurzivní indexace, budou indexovány také soubory ve všech podadresářích."
+
+msgctxt "dlgAddDir"
+msgid "Please select the directory, you wish to add to the list"
+msgstr "Vyberte adresář, který chcete přidat do seznamu"
+
+msgctxt "dlgClearLocs"
+msgid "Are you sure, you wish to clear all the entries off this list?"
+msgstr "Opravdu chcete odstranit všechny položky z tohoto seznamu?"
+
+msgctxt "dlgDirAccessErr"
+msgid "The selected folder does not have the proper Read/Write permissions to use as Cache Location.\nWill you allow Icaros to add the necessary user permissions to this folder?"
+msgstr "Vybraný složka nemá správná oprávnění pro čtení/zápis pro použití jako umístění mezipaměti.\nPovolíte aplikaci Icaros přidat potřebná uživatelská oprávnění k této složce?"
+
+msgctxt "dlgMoveCache"
+msgid "You are about to change the Cache Location. Would you like to move the existing cache to new the location?"
+msgstr "Chystáte se změnit umístění mezipaměti. Chcete přesunout stávající mezipaměť do nového umístění?"
+
+msgctxt "dlgMoveError"
+msgid "The Icaros Cache is currently locked by another process, please try restarting Explorer, then try again.\nIf it is still locked after restarting Explorer, a reboot may be required."
+msgstr "Mezipaměť Icaros je momentálně uzamčena jiným procesem. Zkuste restartovat Průzkumníka a poté to zkuste znovu.\nPokud bude stále uzamčena i po restartu, může být nutné restartovat počítač."
+
+msgctxt "cptIcRunWrn"
+msgid "Close IcarosConfig confirmation"
+msgstr "Potvrzení zavření IcarosConfig"
+
+msgctxt "dlgIcRunWrn"
+msgid "The Icaros cache indexer is still running.\nAre you sure you wish to close IcarosConfig and stop the indexer?"
+msgstr "Indexátor mezipaměti Icaros stále běží.\nOpravdu chcete zavřít IcarosConfig a zastavit indexátor?"
+
+msgctxt "cptWinCache"
+msgid "WINDOWS THUMBNAIL CACHE"
+msgstr "MEZIPAMĚŤ MINIATUR WINDOWS"
+
+msgctxt "lblWinCacheSize"
+msgid "Cache Size:  {0} MB"
+msgstr "Velikost mezipaměti: {0} MB"
+
+msgctxt "btnWinCacheClear"
+msgid "Clear"
+msgstr "Vyčistit"
+
+msgctxt "tipOpenCacheLoc"
+msgid "Open Windows thumbnail cache directory"
+msgstr "Otevřít složku mezipaměti miniatur Windows"
+
+msgctxt "cptExplorer"
+msgid "WINDOWS EXPLORER"
+msgstr "PRŮZKUMNÍK WINDOWS"
+
+msgctxt "btnExpRefresh"
+msgid "Refresh"
+msgstr "Obnovit"
+
+msgctxt "btnExpRestart"
+msgid "Restart"
+msgstr "Restartovat"
+
+msgctxt "cptResetTypes"
+msgid "RESET NATIVE FILETYPES"
+msgstr "RESETOVAT NATIVNÍ TYPY SOUBORŮ"
+
+msgctxt "btnResetThumb"
+msgid "Reset Thumbnail Filetypes"
+msgstr "Resetovat typy souborů miniatur"
+
+msgctxt "btnResetProps"
+msgid "Reset Property Filetypes"
+msgstr "Resetovat typy souborů vlastností"
+
+msgctxt "txtResetLimits"
+msgid "The native filetypes can only be reset while Icaros thumbnailing\nand/or properties are not activated"
+msgstr "Nativní typy souborů lze resetovat pouze tehdy, když nejsou aktivní miniatury\nnebo vlastnosti Icaros"
+
+msgctxt "dlgClrCacheErr"
+msgid "The Thumbnail Cache is currently in use.\n Wait a moment, then try again."
+msgstr "Mezipaměť miniatur je právě používána.\n Počkejte chvíli a zkuste to znovu."
+
+msgctxt "dlgcptExpRestrt"
+msgid "Restart Explorer"
+msgstr "Restartovat Průzkumníka"
+
+msgctxt "dlgExpRestrt"
+msgid "Warning!\nRestarting Explorer may interrupt file copy/move operations,\nand may cause certain processes to halt.\n\nDo you wish to continue?"
+msgstr "Upozornění!\nRestartování Průzkumníka může přerušit operace kopírování/přesouvání souborů\na způsobit zastavení některých procesů.\n\nChcete pokračovat?"
+
+msgctxt "dlgRstThumb"
+msgid "Are you sure, you want to reset all native filetypes back to their default thumbnail providers?"
+msgstr "Opravdu chcete resetovat všechny nativní typy souborů na jejich výchozí poskytovatele miniatur?"
+
+msgctxt "dlgRstProps"
+msgid "Are you sure, you want to reset all native filetypes back to their default property handlers and property lists?"
+msgstr "Opravdu chcete resetovat všechny nativní typy souborů na jejich výchozí zpracovatele vlastností a seznamy vlastností?"
+
+msgctxt "dlgRstSuccess"
+msgid "All native filetypes was reset successfully!"
+msgstr "Všechny nativní typy souborů byly úspěšně resetovány."
+
+msgctxt "lblSize"
+msgid "SIZE:"
+msgstr "VELIKOST:"
+
+msgctxt "enuThumbnailViaIcaros"
+msgid "THUMBNAILING VIA ICAROS"
+msgstr "VYTVOŘENÍ MINIATUR POMOCÍ ICAROS"
+
+msgctxt "enuThumbnailViaExplorer"
+msgid "THUMBNAILING VIA EXPLORER"
+msgstr "VYTVOŘENÍ MINIATUR POMOCÍ PRŮZKUMNÍKA"
+
+msgctxt "enuPropertiesViaIcaros"
+msgid "PROPERTIES VIA ICAROS"
+msgstr "VLASTNOSTI POMOCÍ ICAROS"
+
+msgctxt "enuPropertiesViaExplorer"
+msgid "PROPERTIES VIA EXPLORER"
+msgstr "VLASTNOSTI POMOCÍ PRŮZKUMNÍKA"
+
+msgctxt "btnRunAllTest"
+msgid "Run All"
+msgstr "Spustit vše"
+
+msgctxt "btnRunTest"
+msgid "Run ({0})"
+msgstr "Spustit ({0})"
+
+msgctxt "hdrTestFiles"
+msgid "Test Files"
+msgstr "Testovací soubory"
+
+msgctxt "hdrTime"
+msgid "Time"
+msgstr "Čas"
+
+msgctxt "hdrShellExtension"
+msgid "Shell Extension"
+msgstr "Rozšíření prostředí"
+
+msgctxt "hdrCache"
+msgid "From Cache"
+msgstr "Z mezipaměti"
+
+msgctxt "lblDropFiles"
+msgid "DROP FILES AND/OR FOLDERS YOU WISH TO TEST HERE"
+msgstr "SEM PŘETÁHNĚTE SOUBORY NEBO SLOŽKY, KTERÉ CHCETE TESTOVAT"
+
+msgctxt "lblNoProperties"
+msgid "NO PROPERTIES HAS BEEN GENERATED FOR THIS FILE\nUSE THE 'PROPERTY TEST' TO VIEW PROPERTIES FOR THIS FILE"
+msgstr "PRO TENTO SOUBOR NEBYLY VYGENEROVÁNY ŽÁDNÉ VLASTNOSTI\nPOUŽIJTE „TEST VLASTNOSTÍ“ K ZOBRAZENÍ VLASTNOSTÍ SOUBORU"
+
+msgctxt "lblLevel"
+msgid "LVL:"
+msgstr "ÚROVEŇ:"
+
+msgctxt "lblDebugCount"
+msgid "{0} ENTRIES"
+msgstr "POLOŽEK: {0}"
+
+msgctxt "tipRefresh"
+msgid "Refresh the thumbnails of the selected files in Explorer"
+msgstr "Obnovit miniatury vybraných souborů v Průzkumníku"
+
+msgctxt "tipSubDirDepth"
+msgid "The level/depth of subdirectories to scan through when getting files from a dropped folder (1-9)"
+msgstr "Úroveň/hloubka podadresářů ke skenování při získávání souborů z přetažené složky (1–9)"
+
+msgctxt "tipClosePanel"
+msgid "Close panel"
+msgstr "Zavřít panel"
+
+msgctxt "tipAutoScrollOn"
+msgid "Disable auto scrolling"
+msgstr "Vypnout automatické posouvání"
+
+msgctxt "tipAutoScrollOff"
+msgid "Enable auto scrolling"
+msgstr "Zapnout automatické posouvání"
+
+msgctxt "tipThumbPlaceholder"
+msgid "Use one of the two 'Thumbnail tests' to view the thumbnail for this file"
+msgstr "Použijte jeden ze dvou testů miniatur k zobrazení miniatury tohoto souboru"
+
+msgctxt "tipThumbPreview"
+msgid "Thumbnail dimensions:\n{0} x {1}"
+msgstr "Rozměry miniatury:\n{0} × {1}"
+
+msgctxt "lnkSupport"
+msgid "Follow Beta development of Icaros or get support"
+msgstr "Sledujte vývoj beta verzí Icaros nebo získejte podporu"
+
+msgctxt "lblSpcTks"
+msgid "SPECIAL THANKS TO"
+msgstr "ZVLÁŠTNÍ PODĚKOVÁNÍ"
+
+msgctxt "lblLocalize"
+msgid "LOCALIZATION"
+msgstr "LOKALIZACE"
+
+msgctxt "cbxPropLocal"
+msgid "Enable Property Localization"
+msgstr "Povolit lokalizaci vlastností"
+
+msgctxt "lblTheming"
+msgid "THEME OPTIONS"
+msgstr "MOŽNOSTI MOTIVU"
+
+msgctxt "lblChromeClr"
+msgid "CHROME COLOR"
+msgstr "BARVA CHROME"
+
+msgctxt "enuMonoColor"
+msgid "Mono Color"
+msgstr "Jednobarevný"
+
+msgctxt "enuColorPerPage"
+msgid "Color Per Page"
+msgstr "Barva podle stránky"
+
+msgctxt "cbxRemWinSize"
+msgid "Remember Window Size"
+msgstr "Zapamatovat si velikost okna"
+
+msgctxt "cbxRemWinPos"
+msgid "Remember Window Position"
+msgstr "Zapamatovat si polohu okna"
+
+msgctxt "cbxAnimation"
+msgid "Disable Page Animations"
+msgstr "Vypnout animace stránek"
+
+msgctxt "lblGlassOpacity"
+msgid "Glass Overlay Opacity"
+msgstr "Průhlednost skleněného překryvu"
+
+msgctxt "lblGlassDark"
+msgid "Dark"
+msgstr "Tmavý"
+
+msgctxt "lblGlassLight"
+msgid "Light"
+msgstr "Světlý"
+
+msgctxt "tipModSettings"
+msgid "To Export/Import/Reset the Icaros settings, thumbnailing\nand properties must be deactivated"
+msgstr "Pro export/import/reset nastavení Icaros musí být miniatury\na vlastnosti deaktivovány"
+
+msgctxt "optExport"
+msgid "Export Settings"
+msgstr "Exportovat nastavení"
+
+msgctxt "optImport"
+msgid "Import Settings"
+msgstr "Importovat nastavení"
+
+msgctxt "optReset"
+msgid "Reset All Settings"
+msgstr "Resetovat všechna nastavení"
+
+msgctxt "dlgThemeAccent"
+msgid "Would you like to use this theme's default chrome colors?\n\nWarning: This will overwrite your current chrome color settings!"
+msgstr "Chcete použít výchozí barvy chrome tohoto motivu?\n\nUpozornění: Tím se přepíší vaše aktuální nastavení barev chrome!"
+
+msgctxt "cptThemeAccent"
+msgid "Use default theme chrome colors?"
+msgstr "Použít výchozí barvy chrome motivu?"
+
+msgctxt "dlgExportLoc"
+msgid "Please chose where you wish to export the Icaros settings"
+msgstr "Vyberte, kam chcete exportovat nastavení Icaros"
+
+msgctxt "dlgImportWrn"
+msgid "This will overwrite ALL your existing settings.\n\nDo you still wish to continue?"
+msgstr "Tím se přepíšou VŠECHNA vaše stávající nastavení.\n\nChcete přesto pokračovat?"
+
+msgctxt "dlgResetAll"
+msgid "This will reset ALL your existing settings.\n\nDo you still wish to continue?"
+msgstr "Tím se resetují VŠECHNA vaše stávající nastavení.\n\nChcete přesto pokračovat?"
+
+msgctxt "cptResetWrn"
+msgid "Settings Reset Confirmation"
+msgstr "Potvrzení resetu nastavení"
+
+msgctxt "tipAddFiles"
+msgid "Add files"
+msgstr "Přidat soubory"
+
+msgctxt "tipClearList"
+msgid "Clear list"
+msgstr "Vymazat seznam"
+
+msgctxt "tipWow64On"
+msgid "Icaros is enabled for 32-bit file dialogs"
+msgstr "Icaros je povolen pro 32bitová dialogová okna souborů"
+
+msgctxt "tipWow64Off"
+msgid "Icaros is disabled for 32-bit file dialogs"
+msgstr "Icaros je zakázán pro 32bitová dialogová okna souborů"
+
+msgctxt "tipBrowse"
+msgid "Browse to location"
+msgstr "Procházet do umístění"
+
+msgctxt "cptDonate"
+msgid "Donate"
+msgstr "Přispět"
+
+msgctxt "lblDonateTxt"
+msgid "If you like Icaros please consider making a donation to keep up the development of Icaros"
+msgstr "Pokud se vám Icaros líbí, zvažte prosím dar na podporu jeho dalšího vývoje"
+
+msgctxt "lblDonateTxt2"
+msgid "Donations received so far in {0}"
+msgstr "Dosud přijaté dary v {0}"
+
+msgctxt "lblFlattrTxt"
+msgid "Become a microdonator to continuously support the development of Icaros"
+msgstr "Staňte se mikrodárcem a průběžně podporujte vývoj Icaros"
+
+msgctxt "lblCreatedBy"
+msgid "Created and developed by"
+msgstr "Vytvořil a vyvíjí"
+
+msgctxt "tipMail"
+msgid "Send a mail to the developer of Icaros"
+msgstr "Pošlete e-mail vývojáři Icaros"
+
+msgctxt "tipTwitter"
+msgid "Follow Icaros development on Twitter"
+msgstr "Sledujte vývoj Icaros na Twitteru"
+
+msgctxt "swtOn"
+msgid "On"
+msgstr "Zapnuto"
+
+msgctxt "swtOff"
+msgid "Off"
+msgstr "Vypnuto"
+
+msgctxt "btnDone"
+msgid "Done"
+msgstr "Hotovo"
+
+msgctxt "btnYes"
+msgid "Yes"
+msgstr "Ano"
+
+msgctxt "btnNo"
+msgid "No"
+msgstr "Ne"
+
+msgctxt "btnContinue"
+msgid "Continue"
+msgstr "Pokračovat"
+
+msgctxt "btnGotIt"
+msgid "Got It!"
+msgstr "Rozumím"
+
+msgctxt "dlgcptConf"
+msgid "Confirmation"
+msgstr "Potvrzení"
+
+msgctxt "dlgcptInfo"
+msgid "Info"
+msgstr "Informace"
+
+msgctxt "dlgcptError"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "btnRstColor"
+msgid "Reset Color"
+msgstr "Resetovat barvu"
+
+msgctxt "btnMin"
+msgid "Minimize"
+msgstr "Minimalizovat"
+
+msgctxt "btnMax"
+msgid "Maximize"
+msgstr "Maximalizovat"
+
+msgctxt "btnResDown"
+msgid "Restore Down"
+msgstr "Obnovit dolů"
+
+msgctxt "btnClose"
+msgid "Close"
+msgstr "Zavřít"
+
+#~ msgctxt "tipCoverArt"
+#~ msgid ""
+#~ "When Cover Art is enabled, Icaros will look for embedded\n"
+#~ "cover art in files that support it, while generating thumbnails.\n"
+#~ "If a cover is found, it will be used as thumbnail, otherwise\n"
+#~ "Icaros will automatically fall back to normal thumbnailing.\n"
+#~ "\n"
+#~ "Note: This should not affect the thumbnailing speed in any\n"
+#~ "noticeable way."
+#~ msgstr ""
+#~ "Pokud jsou povoleny obaly, Icaros bude při generování miniatur\n"
+#~ "hledat vložené obaly v souborech, které je podporují.\n"
+#~ "Pokud se obal najde, použije se jako miniatura, jinak\n"
+#~ "Icaros automaticky přejde na běžné generování miniatur.\n"
+#~ "\n"
+#~ "Poznámka: Nemělo by to nijak znatelně ovlivnit rychlost generování miniatur."
+
+#~ msgctxt "dlgClearLocs"
+#~ msgid "Are you sure, you wish to clear all the entries of this list?"
+#~ msgstr "Opravdu chcete vymazat všechny položky tohoto seznamu?"
+
+#~ msgctxt "dlgDirAccessErr"
+#~ msgid ""
+#~ "The selected folder does not have the proper Read/Write permissions to use as Cache Location.\n"
+#~ "The Icaros Cache may not work if this location is used.\n"
+#~ "\n"
+#~ "Do you still wish to use it?"
+#~ msgstr ""
+#~ "Vybraný složka nemá správná oprávnění pro čtení/zápis pro použití jako umístění mezipaměti.\n"
+#~ "Mezipaměť Icaros nemusí fungovat, pokud bude použita tato lokalizace.\n"
+#~ "\n"
+#~ "Chcete ji přesto použít?"
